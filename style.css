@@ -1,0 +1,19 @@
+/* DO NOT EDIT */
+body {
+  font-family: sans-serif;
+}
+
+#grid {
+  width: fit-content;
+  display: grid;
+  justify-content: center;
+  margin-bottom: 24px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.square {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
